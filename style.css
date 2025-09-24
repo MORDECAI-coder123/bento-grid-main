@@ -1,0 +1,281 @@
+
+
+.flex-box6{
+    width: 25%;
+    border-radius: 20px;
+    height: 250px;
+    background-color:  rgba(255, 239, 219, 0.897) ;
+ 
+    margin-left: 30px;
+    margin-top: 20px;
+   
+    vertical-align: top;
+position: relative;
+top: 120px;
+}
+.container{
+       position: relative;
+   top: 10px;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+margin-left: 200px;
+margin-top: 0px;
+}
+.hi{
+    width: 70%;
+}
+h1{
+    color:black;
+    font-family: url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
+}
+.flex-box6 span{
+    color: rgb(113, 0, 128);
+    font-style: italic;
+    font-family: url(assets/fonts/DMSans-Italic-VariableFont_opsz,wght.ttf);
+}
+.flex-box7{
+    width: 30%;
+    height: 40%;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background-color: rgba(195, 0, 255, 0.973);
+   
+    text-align: center;
+   position: relative;
+top: 120px;
+    vertical-align: top;
+}
+.flex-box7 span{
+    color: rgb(255, 208, 0);
+    font-family: url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
+}
+.hello{
+    width: 40%;
+    margin-top: 1px;
+}
+.up{
+      height: 400px;
+    width: 250px;
+    
+ 
+text-align: center;
+    margin-top: 100px;
+margin-left: 500px;
+  
+    border-radius: 20px;
+   
+}
+h2{
+    color: #fff;
+    font-size: 40px;
+    font-family:url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf) ;
+}
+.flex-box7 p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: light;
+}
+.say{
+    width: 90%;
+}
+.flex-box8{
+    height: 40%;
+    width: 25%;
+    margin-left: 20px; 
+    vertical-align: top;
+position: relative;
+margin-left: 80px;
+    margin-top: 40px;
+top: 95px;
+    
+    border-radius: 20px;
+    background-color: rgba(0, 162, 255, 0.589);
+}
+h3{
+    font-family: url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
+    font-size: 30px;
+}
+.you{
+    font-family:url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf) ;
+    font-size: 15px;
+    font-weight: light;
+}
+.flex-container{
+   position: relative;
+   bottom: 120px;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+margin-left: 200px;
+margin-top: 0px;
+flex-grow: 2;
+} 
+.flex-box1{
+    
+    width:25%;
+    height: 38.5%;
+    background-color: rgba(255, 166, 0, 0.74);
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 90px;
+    position: relative;
+    bottom: 150px;
+}
+.flex-box2{
+    width: 18%;
+    height: 15%;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    right: 40px;
+    bottom: 150px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-top: 90px;
+}  
+.flex-box3{
+     width: 15%;
+    height: 15%;
+    background-color:rgba(255, 166, 0, 0.87);
+    border-radius: 20px;
+    position: relative;
+    right: 20px;
+    text-align: center;
+    margin-left: 2px;
+   margin-top: 70px;
+    bottom: 140px;
+}
+.flex-box4{
+     width: 18%;
+    height: 15%;
+    background-color:#fff;
+    border-radius: 20px;
+    margin-left: 20px;
+    position: relative;
+    top:50px;
+     right: 500px;
+     margin-left: 30px;
+    margin-top: 68px;
+   
+    
+}
+.flex-box5{
+     width: 40%;
+    height: 15%;
+    background-color:rgb(162, 0, 255);
+    border-radius: 20px;
+    margin-left: 20px;
+    position: relative;
+    bottom:400px;
+    left: 600px;
+   
+}
+h4{
+    font-family: url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
+    font-size: 26px;
+}
+.tell{
+    width: 80%;
+}
+body{
+    background-color: aliceblue;
+    text-align: left;
+    margin-top: 40px;
+    width: 1440px;
+height: auto;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.laugh{
+    font-size: 20px;
+    font-family: url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
+}
+@media only screen and (max-width: 375px)  {
+body{
+    flex-direction: column;
+}
+.flex-box1{
+    flex-direction: column;
+}
+.flex-box2{
+    flex-direction: column;
+}
+.flex-box3{
+    flex-direction: column;
+}
+  .flex-box4{
+    flex-direction: column;
+}
+.flex-box5{
+    flex-direction: column;
+}
+  
+.flex-box6{
+    flex-direction: column;
+}
+    
+  .flex-box7{
+    flex-direction: column;
+}
+  
+  .flex-box8{
+    flex-direction: column;
+}
+.flex-container{
+    flex-direction: column;
+}
+  
+}
+
+.joy{
+    width:100%;
+    margin-top: 15px;
+   
+
+}
+h5{
+    font-family:url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf) ;
+    color: black;
+    font-size: 15px;
+}
+.last{
+    width: 70%;
+    position: relative;
+    z-index: 1;
+    
+
+}
+h6{
+    font-family: url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
+    font-size: 9px;
+}
+.wonder{
+    font-size: 10px;
+    margin-left: 10px;
+    font-family:url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf) ;
+}
+.flex-box4 span{
+     font-size: 35px;
+     margin-left: 10px;
+    font-family:url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf) ; 
+}
+.source{
+    width: 80%;
+    margin-left: 10px;
+}
+.yah{
+    width: 100%;
+
+}
+.glory{
+    font-size: 30px;
+    font-family: url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
+    color: #fff;
+}
