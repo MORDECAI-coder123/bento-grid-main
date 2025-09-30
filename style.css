@@ -186,7 +186,7 @@ body{
     background-color: aliceblue;
     text-align: left;
     margin-top: 40px;
-    width: 1440px;
+    width:1440px;
 height: auto;
 }
 a{
@@ -197,23 +197,42 @@ a{
     font-size: 20px;
     font-family: url(assets/fonts/DMSans-VariableFont_opsz,wght.ttf);
 }
-@media only screen and (max-width: 375px)  {
+@media only screen and (min-width: 375px) and (max-width:1000px){
 body{
     flex-direction: column;
 }
 .flex-box1{
     flex-direction: column;
+    margin-top: 270px;
 }
 .flex-box2{
     flex-direction: column;
+    margin-left: 75px;
+ position: relative;
+   bottom: 220px;
 }
 .flex-box3{
     flex-direction: column;
+     margin-left: 42px;
+   position: relative;
+   bottom: 280px;
 }
   .flex-box4{
     flex-direction: column;
+     position: relative;
+   bottom:2000px;
+    right:  80px;
 }
 .flex-box5{
+ flex-direction: column;
+  position: relative;
+   bottom: 500px;
+    right:  80px;
+    text-align: left;
+   
+
+}
+.flex-container{
     flex-direction: column;
 }
   
@@ -227,9 +246,14 @@ body{
   
   .flex-box8{
     flex-direction: column;
+    position: relative;
+    right: 40px;
 }
 .flex-container{
     flex-direction: column;
+}
+.wrapper main{
+    width: 100%;
 }
   
 }
